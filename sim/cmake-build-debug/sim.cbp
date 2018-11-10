@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="sim"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/shaoyidi/Desktop/Files/AdvancedProgramming/sim/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shaoyidi/Desktop/Files/AdvancedProgramming/sim/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shaoyidi/Desktop/Files/AdvancedProgramming/sim/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shaoyidi/Desktop/Files/AdvancedProgramming/sim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shaoyidi/Desktop/Files/AdvancedProgramming/sim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/shaoyidi/Desktop/Files/AdvancedProgramming/sim/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shaoyidi/Desktop/Files/AdvancedProgramming/sim/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shaoyidi/Desktop/Files/AdvancedProgramming/sim/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shaoyidi/Desktop/Files/AdvancedProgramming/sim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shaoyidi/Desktop/Files/AdvancedProgramming/sim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/shaoyidi/Desktop/Files/AdvancedProgramming/sim/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shaoyidi/Desktop/Files/AdvancedProgramming/sim/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shaoyidi/Desktop/Files/AdvancedProgramming/sim/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shaoyidi/Desktop/Files/AdvancedProgramming/sim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shaoyidi/Desktop/Files/AdvancedProgramming/sim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sim">
+				<Option output="/Users/shaoyidi/Desktop/Files/AdvancedProgramming/sim/cmake-build-debug/sim" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shaoyidi/Desktop/Files/AdvancedProgramming/sim/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shaoyidi/Desktop/Files/AdvancedProgramming/sim/cmake-build-debug/Makefile&quot;  VERBOSE=1 sim"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shaoyidi/Desktop/Files/AdvancedProgramming/sim/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shaoyidi/Desktop/Files/AdvancedProgramming/sim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shaoyidi/Desktop/Files/AdvancedProgramming/sim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sim/fast">
+				<Option output="/Users/shaoyidi/Desktop/Files/AdvancedProgramming/sim/cmake-build-debug/sim" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shaoyidi/Desktop/Files/AdvancedProgramming/sim/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shaoyidi/Desktop/Files/AdvancedProgramming/sim/cmake-build-debug/Makefile&quot;  VERBOSE=1 sim/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shaoyidi/Desktop/Files/AdvancedProgramming/sim/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shaoyidi/Desktop/Files/AdvancedProgramming/sim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shaoyidi/Desktop/Files/AdvancedProgramming/sim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/shaoyidi/Desktop/Files/AdvancedProgramming/sim/Manage.cpp">
+			<Option target="sim"/>
+		</Unit>
+		<Unit filename="/Users/shaoyidi/Desktop/Files/AdvancedProgramming/sim/Manage.h">
+			<Option target="sim"/>
+		</Unit>
+		<Unit filename="/Users/shaoyidi/Desktop/Files/AdvancedProgramming/sim/Person.cpp">
+			<Option target="sim"/>
+		</Unit>
+		<Unit filename="/Users/shaoyidi/Desktop/Files/AdvancedProgramming/sim/Person.h">
+			<Option target="sim"/>
+		</Unit>
+		<Unit filename="/Users/shaoyidi/Desktop/Files/AdvancedProgramming/sim/Student.cpp">
+			<Option target="sim"/>
+		</Unit>
+		<Unit filename="/Users/shaoyidi/Desktop/Files/AdvancedProgramming/sim/Student.h">
+			<Option target="sim"/>
+		</Unit>
+		<Unit filename="/Users/shaoyidi/Desktop/Files/AdvancedProgramming/sim/Teacher.cpp">
+			<Option target="sim"/>
+		</Unit>
+		<Unit filename="/Users/shaoyidi/Desktop/Files/AdvancedProgramming/sim/Teacher.h">
+			<Option target="sim"/>
+		</Unit>
+		<Unit filename="/Users/shaoyidi/Desktop/Files/AdvancedProgramming/sim/main.cpp">
+			<Option target="sim"/>
+		</Unit>
+		<Unit filename="/Users/shaoyidi/Desktop/Files/AdvancedProgramming/sim/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
