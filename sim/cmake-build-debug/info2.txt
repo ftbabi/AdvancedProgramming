@@ -1,0 +1,5 @@
+load info a,student,1,9:00,in
+load info b,student,2,9:00,in
+load info a,student,1,9:00,out
+load info c,student,3,9:00,out
+load info a,student,1,8:00,out

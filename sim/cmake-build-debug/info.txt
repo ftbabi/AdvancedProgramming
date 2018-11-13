@@ -1,0 +1,7 @@
+add id 1,2,5
+add face id   2   , 3 ,4
+load info a,student,2,8:00,in
+load info b,student,3,8:05,out
+load info c,teacher,1,5,8:05,out
+load info d,teacher,2,6,8:10,out
+load info e,student,4,8:10,in

@@ -25,6 +25,12 @@ queue
 -
 regex
 -
+algorithm
+-
+map
+-
+fstream
+-
 Person.h
 /Users/shaoyidi/Desktop/Files/AdvancedProgramming/sim/Person.h
 Student.h
