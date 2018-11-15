@@ -14,7 +14,7 @@ string array_s[] = {"\\s*simulate\\s*(.*)", "\\s*load\\s+info\\s+(.*)", "\\s*sho
                       "\\s*add\\s+face\\s+id(.*)", "\\s*delete\\s+id\\s+(.*)", "\\s*delete\\s+face\\s+id\\s+(.*)",
                       "\\s*print\\s+id\\s*(.*)", "\\s*print\\s+face\\s+id\\s*(.*)", "\\s*clear\\s+id\\s*(.*)",
                       "\\s*clear\\s+face\\s+id\\s*(.*)", "\\s*load\\s+from\\s+file\\s+(.*)", "\\s*clear\\s+info\\s*(.*)",
-                      "\\s*clear\\s+all\\s*(.*)"};
+                      "\\s*clear\\s+all\\s*(.*)", "\\s*help\\s*(.*)"};
 vector<string> CMLParser::pattern(array_s, array_s + NumOfFunc);
 
 //priority_queue<Person*, vector<Person*>, logically_bigger> Manage::info;
@@ -23,7 +23,7 @@ vector<Person*> Manage::pinfo;
 func Manage::cmd[NumOfFunc] = {Manage::simulate, Manage::load_info, Manage::show_info, IDHandler::load_id, IDHandler::load_face_id,
                 IDHandler::add_id, IDHandler::add_face_id, IDHandler::delete_id, IDHandler::delete_face_id,
                 IDHandler::print_id, IDHandler::print_face_id, IDHandler::clear_id, IDHandler::clear_face_id, Manage::load_from_file,
-                Manage::clear_info, Manage::clear_all};
+                Manage::clear_info, Manage::clear_all, Manage::help};
 
 
 void StringSpliter::erase_space(string &str) {
@@ -484,5 +484,30 @@ bool Manage::clear_all(string raw) {
     clear_info();
     idHandler.clear_face_id();
     idHandler.clear_id();
+    return true;
+}
+
+bool Manage::help(string r) {
+    cout << "Valid cmd:\n"
+            "\tsimulate\t\n"
+            "\tload info (input information)\t\n"
+            "\tshow info\t\n"
+            "\tload id (input id)\t\n"
+            "\tload face id (input face id)\t\n"
+            "\tadd id (input id)\t\n"
+            "\tadd face id (input face id)\t\n"
+            "\tdelete id (input id)\t\n"
+            "\tdelete face id (input face id)\t\n"
+            "\tprint id\t\n"
+            "\tprint face id\t\n"
+            "\tclear id\t\n"
+            "\tclear face id\t\n"
+            "\tclear info\t\n"
+            "\tclear all\t\n"
+            "\tload from file (path)\t\n"
+            "\thelp\t\n"
+            "\tquit | q | Q | Quit | QUIT\t\n";
+
+
     return true;
 }

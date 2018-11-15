@@ -19,7 +19,7 @@
 #include "Student.h"
 #include "Teacher.h"
 
-#define NumOfFunc 16
+#define NumOfFunc 17
 
 using namespace std;
 
@@ -119,11 +119,13 @@ public:
     static bool load_from_file(string raw);
     static bool clear_info(string raw = "");
     static bool clear_all(string raw = "");
+    static bool help(string r = "");
 
     static void show_prefix();
     static bool execute();
     static bool debug_vec(vector<Person*> &vec); // 用于调试的时候输出
     static bool is_duplicated(Person* p);
+
 private:
     static IDHandler idHandler;
     static StringSpliter spliter;
